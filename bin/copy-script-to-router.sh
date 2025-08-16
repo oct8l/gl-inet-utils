@@ -4,7 +4,7 @@
 script_dir=$(dirname "$0")
 
 # Copy the script to the router
-ssh root@192.168.8.1 "cat > /etc/gl-switch.d/wireguard.sh" < $script_dir/../switch-scripts/mt3000/custom/wireguard-custom.sh
+ssh root@192.168.8.1 "cat > /etc/gl-switch.d/vpn.sh" < $script_dir/../switch-scripts/mt3000/custom/vpn-custom.sh
 
 # Make the script executable
-ssh root@192.168.8.1 "chmod +x /etc/gl-switch.d/wireguard.sh"
+ssh root@192.168.8.1 "chmod +x /etc/gl-switch.d/vpn.sh"
