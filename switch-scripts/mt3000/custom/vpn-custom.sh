@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Combined WireGuard and AdGuardHome control script
-# Usage: ./wireguard.sh [on|off]
+# Usage: ./vpn.sh [on|off]
 
 # WireGuard control
 . /lib/functions/gl_util.sh
