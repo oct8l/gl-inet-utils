@@ -6,6 +6,8 @@
 # WireGuard control
 . /lib/functions/gl_util.sh
 
+action=$1
+
 [ "$1" = "on" ] && enabled=1 || enabled=0
 
 tunnel=$(uci -q get switch-button.@main[0].sub_func)
