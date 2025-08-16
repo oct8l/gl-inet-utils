@@ -1,2 +1,2 @@
 # gl-inet-utils
-A collection of utilities for GL-Inet devices!
+A collection of utilities for GL.iNet devices!
