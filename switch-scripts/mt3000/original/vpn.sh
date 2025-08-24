@@ -1,4 +1,6 @@
 #!/bin/sh
+# v4.8.0
+
 . /lib/functions/gl_util.sh
 
 [ "$1" = "on" ] && enabled=1 || enabled=0

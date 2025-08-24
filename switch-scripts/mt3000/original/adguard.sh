@@ -1,4 +1,5 @@
 #!/bin/sh
+# v4.8.0
 
 action=$1
 status=$(uci -q get adguardhome.config.enabled)

@@ -1,4 +1,6 @@
 #!/bin/sh
+# v4.8.0
+
 . /lib/functions/gl_util.sh
 
 action=$1
