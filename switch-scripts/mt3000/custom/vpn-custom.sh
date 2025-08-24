@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# v4.8.0
+# v4.8.1
 
 # Combined WireGuard and AdGuardHome control script
 # Usage: ./vpn.sh [on|off]
