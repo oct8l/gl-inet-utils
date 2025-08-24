@@ -28,7 +28,7 @@ case "$1" in
         original_dir="$script_dir/../switch-scripts/mt3000/original"
 
         echo "  Copying adguard.sh..."
-        ssh root@192.168.8.1 "cat /etc/gl-switch.d/adguard.sh" > "$original_dir/adguard.sh"
+        ssh root@192.168.8.1 "cat /etc/gl-switch.d/adguardhome.sh" > "$original_dir/adguardhome.sh"
 
         echo "  Copying vpn.sh..."
         ssh root@192.168.8.1 "cat /etc/gl-switch.d/vpn.sh" > "$original_dir/vpn.sh"
