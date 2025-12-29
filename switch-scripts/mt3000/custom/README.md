@@ -238,7 +238,7 @@ switch-scripts/mt3000/
 │   ├── wireguard.sh           # Original WireGuard-only script
 │   └── adguard.sh             # Original AdGuard-only script
 └── bin/
-    └── copy-script-to-router.sh # Deployment script
+    └── copy-sitch-script.sh # Deployment script
 ```
 
 ## Technical Details
