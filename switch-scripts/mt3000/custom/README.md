@@ -38,7 +38,7 @@ git clone https://github.com/oct8l/gl-inet-utils.git
 cd gl-inet-utils
 
 # Copy the script to your router
-./bin/copy-script-to-router.sh
+./bin/copy-switch-script.sh --to-router
 ```
 
 ### Method 2: Direct SSH Installation
